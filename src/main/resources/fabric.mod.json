@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "spider-addon",
   "version": "${version}",
   "name": "Addon Template",
-  "description": "An addon template for Meteor Client addons.",
+  "description": "An addon for Meteor Client addons.",
   "authors": [
     "seasnail"
   ],
