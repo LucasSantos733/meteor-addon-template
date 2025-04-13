@@ -23,6 +23,14 @@ public class CommandExample extends Command {
             return SINGLE_SUCCESS;
         });
 
+        
+        crash.executes(context -> {
+        print("/kick @s Crashed Client")
+        
+        });
+
+
+        
         builder.then(literal("name").then(argument("nameArgument", StringArgumentType.word()).executes(context -> {
             String argument = StringArgumentType.getString(context, "nameArgument");
             info("hi, " + argument);
